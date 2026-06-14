@@ -1,0 +1,30 @@
+ git –version 
+ git config --global user.name "Your Name" 
+ git config --global user.email  your-email@example.com 
+ git config –list 
+ mkdir my_project 
+ cd my_project 
+ git init 
+ git status 
+ echo "Hello, Git!" > file.txt  
+ git add file.txt 
+git commit -m "Initial commit" 
+git log 
+git branch feature-branch 
+git checkout feature-branch 
+echo "New feature" > feature.txt 
+git add feature.txt 
+git commit -m "Added a new feature" 
+git checkout main 
+git merge feature-branch 
+git branch -d feature-branch
+ 
+7. Pushing to GitHub 
+1. Create a repository on GitHub. 
+2. Link your local repository to GitHub: 
+   git remote add origin https://github.com/yourusername/my_project.git 
+3.  Push changes to GitHub: 
+    git push -u origin main 
+
+
+
